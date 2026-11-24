@@ -1,14 +1,15 @@
-#include <iostream>
-
-struct point_t
+namespace kuryanov
 {
-  double x;
-  double y;
-};
+  struct point_t
+  {
+    double x;
+    double y;
+  };
 
-struct rectangle_t
-{
-  double width;
-  double height;
-  point_t pos;
-};
+  struct rectangle_t
+  {
+    double width;
+    double height;
+    point_t pos;
+  };
+}
